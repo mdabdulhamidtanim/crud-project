@@ -1,0 +1,18 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+backend/.env
+
+# Git metadata backups
+backend/.git-backup/
+frontend/.git-backup/
+
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Build output
+backend/dist/
+frontend/.next/
